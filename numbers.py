@@ -1,4 +1,4 @@
-#decimal numbers
+# decimal numbers
 print"decimal numbers"
 a = 4.2
 print "a =", a
@@ -7,7 +7,7 @@ print "b =", b
 print "a + b =", a + b
 
 
-#addtion
+# addtion
 print "addtion"
 a = 1
 b = 4.2
@@ -16,7 +16,7 @@ print "b =", b
 print "a + b =", a + b
 
 
-#subtraction
+# subtraction
 print "subtraction"
 a = 1
 b = 4.2
@@ -25,7 +25,7 @@ print "b =", b
 print "b - a =", b - a
 
 
-#multiplication
+# multiplication
 print "multiplication"
 a = 2
 b = 4.2
@@ -34,7 +34,7 @@ print "b =", b
 print "a * b =", a * b
 
 
-#division
+# division
 # '/' operator produce only an integer when working on integers.
 print "division"
 a = 2
@@ -55,7 +55,7 @@ print "c / e =", c / e
 print "d / e =", d / e
 
 
-#exponent
+# exponent
 print "exponent"
 a = 3
 b = 2
@@ -67,11 +67,10 @@ print "a ** b =", a ** b
 print "b ** a =", b ** a
 
 
-#remainder
+# remainder
 a = 3
 b = 2
 print "a =", a
 print "b =", b
 print "a % b =", a % b
 print "b % a =", b % a
-
