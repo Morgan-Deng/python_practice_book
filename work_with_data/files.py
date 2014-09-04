@@ -28,3 +28,36 @@ f.close()
 f = open('foo.txt', 'w')
 f.writelines(['aa\n', 'bb\n', 'cc\n'])
 f.close()
+
+
+practice
+# count
+
+
+def charcount(filename):
+    return len(open(filename).read())
+
+
+def wordcount(filename):
+    return len(open(filename).read().split())
+
+
+def linecount(filename):
+    return len(open(filename).readlines())
+
+
+print charcount('foo.txt')
+print wordcount('foo.txt')
+print linecount('foo.txt')
+
+
+# print lines in reverse order
+def reverse(x):
+    linelist = open(x, 'r').readlines()
+    linelist.reverse()
+    for line in linelist:
+        print line.strip('\n')
+
+reverse('foo.txt')
+
+

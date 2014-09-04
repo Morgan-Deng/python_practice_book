@@ -26,4 +26,3 @@ print y.strip('abdh')
 
 
 
-
