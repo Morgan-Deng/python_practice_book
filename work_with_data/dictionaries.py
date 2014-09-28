@@ -53,3 +53,28 @@ print d
 # dictionary can be used in string formatting to specify named parameters.
 print 'hello %(name)s' % {'name': 'python'}
 print 'Chapter %(index)d: %(name)s' % {'index': 2, 'name': 'Data Structures'}
+
+
+# count the frequency of words
+def word_frequency(words):
+    """return the frequency of each word given a list of words"""
+
+    frequency = {}
+    for w in words:
+        frequency[w] = frequency.get(w, 0) + 1
+    return frequency
+
+
+def read_words(filename):
+    return open(filename).read().split()
+
+
+def main(filename):
+    frequency = word_frequency(read_words(filename))
+    for k, v in frequency.items():
+        print k, v
+
+main("foo.txt")
+
+print globals()
+
